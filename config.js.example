@@ -1,0 +1,19 @@
+// Anyways this is the config -.-
+
+module.exports = {
+    TOKEN: "PUT_YOUR_TOKEN_HERE",
+
+    // Make sure developer mode is enabled in
+    // Discord's settings.
+    // Map of (Webhook URL(s) AND/OR Channel ID(s)) with (channel id(s) AND/OR webhook url(s))
+    MAP: {
+        "0": [ // Can be a Webhook ID
+            "0", // You can use channel ids
+            "https://discord.com/api/webhooks/0/0" // and webhook urls
+        ],
+        // and you can have multiple forwarders
+        "1": [ // or a Channel ID
+            "1"
+        ]
+    }
+};
